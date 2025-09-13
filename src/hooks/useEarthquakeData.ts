@@ -2,12 +2,13 @@ import { useState, useEffect } from "react";
 import type { EarthquakeData } from "../types/earthquake";
 import { loadEarthquakeData } from "../utils/dataLoader";
 
-export const useEarthQuakeData = () => {
+export const useEarthquakeData = () => {
     const [data, setData] = useState<EarthquakeData[]>([]);
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
 
     useEffect(() => {
+        // Fetch earthquake data
         const fetchData = async () => {
             try {
                 setLoading(true);
