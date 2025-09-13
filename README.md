@@ -1,4 +1,4 @@
-# Earthquake Data Visualization App
+# Reknowledge Assessment - Earthquake Data Visualization App
 
 ## Project Summary
 
