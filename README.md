@@ -100,3 +100,5 @@ This single-page web application fetches geographic statistical data (earthquake
   - Prompt: "Suggest advanced React patterns to improve state management and component structure"
 - Used AI Agent to **Improve initial design**
   - Prompt: "can you redesign my interface to look more modern and user friendly"
+- Used AI for partially generate **README.md**
+  - Prompt: "can you add a small project summary and setup instructions to the top of README.md"
