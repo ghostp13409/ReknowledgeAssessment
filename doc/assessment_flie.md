@@ -88,8 +88,3 @@ Demonstrate various state sharing techniques:
 - Describe any additional features you implemented and your reasoning
 - Add helpful code comments
 - Explain how you utilized AI tools in your development process
-- Email **Sudeep.takkar93@gmail.com** when ready for review
-
----
-
-Thanks for your submission!

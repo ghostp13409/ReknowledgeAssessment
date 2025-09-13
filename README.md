@@ -52,6 +52,7 @@ This single-page web application fetches geographic statistical data (earthquake
 
 ## Additional Features & Reasoning
 
+- Mobile responsive design with stacked panels.
 - Lazy-loaded chart for improved initial load time.
 - Debounce hook for efficient search/filtering.
 - Advanced React patterns for maintainability and performance.
@@ -88,6 +89,12 @@ This single-page web application fetches geographic statistical data (earthquake
     - Created Web Worker hook in `src/hooks/useWebWorker.ts` for easy worker integration
     - Implemented Service Worker in `public/sw.js` for API response caching
     - Registered Service Worker in `src/main.tsx` for production builds
+11. Improved UI/UX:
+    - Redesigned interface for a modern look and better usability
+    - Changed Layout from side-by-side to stacked panels on smaller screens
+    - Added responsive design for various screen sizes
+    - Implemented scrollable table with fixed headers
+    - Added tooltips to chart points for detailed information
 
 # AI Uses
 
